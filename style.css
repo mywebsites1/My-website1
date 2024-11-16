@@ -1,0 +1,638 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navigation var start here */
+.navigation{    
+    background-image: linear-gradient(dodgerblue,rgb(25, 83, 140));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation > ul{
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+  
+  
+}
+.navigation > ul > li{
+
+    font-size: 18px;
+    margin: 0 5px;
+    padding:15px 0;
+    margin-left: -4px;
+    margin-bottom: 2px;
+}
+
+.navigation > ul > li > a{
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid white;
+    padding: 16px 20px;
+    transition: 0.5s;
+}
+
+/* logo design start */
+
+.logo > h2 {
+color: white;
+ margin-left: 50px;}
+.firstletter{
+    color: rgb(255, 60, 0);
+    font-size: 30px;
+}
+/* logo design start */
+
+
+.navigation > ul > li:first-child > a {
+    border-left: 1px solid white;
+}
+    
+.navigation > ul > li:hover > a {
+    background-color: rgb(10, 106, 197);
+}    
+
+/* navigation var end here */
+
+/* dropdowen meanu start  */
+
+.dropdowenmeanu{
+    list-style: none;
+    background-color:dodgerblue;
+    text-align: center;
+    margin-top: 15px;
+    position: absolute;
+    visibility: hidden;
+    transition: 0.5s;
+    transform: scaley(0);
+    transform-origin: top;
+    opacity: 0;
+    box-shadow: 10px 10px 8px black;
+}
+.dropdowenmeanu > li >a {
+    text-decoration: none;
+color: white;
+}
+.dropdowenmeanu > li {
+    width: 185px;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+    
+}
+.dropdowenmeanu > li:first-child{
+    border-top: 1px solid white;
+}
+
+.dropdowenmeanu > li:hover{
+    background-color:rgb(10, 106, 197) ;
+
+}
+
+.navigation > ul > li:hover > .dropdowenmeanu{
+ visibility: visible;
+ opacity: 1;
+ transform: scaley(1);
+}
+/* dropdowen meanu end */
+
+/* header area start here */
+.main-area{
+        text-align: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.189),rgba(0, 0, 0, 0.148)), url('image/web\ header\ \(1\).jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 90vh;
+    }
+.heder{
+    padding-top: 100px;
+}
+.heder > h1{
+    background-color: rgba(11, 77, 143, 0.671);
+    width: 400px;
+    margin: 20px auto;
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.heder > button{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: rgba(4, 50, 97, 0.68);
+    color: white;
+    border-radius: 20px 10px 20px 10px;
+    border: 3px solid green;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.heder > button:hover{
+    background-color: rgba(0, 0, 0, 0.091);
+}
+.heder > h4{
+    font-size: 25px;
+    color: rgb(42, 41, 41);
+}
+.heder >h5{
+    font-size: 25px;
+    color: rgb(42, 41, 41);
+    margin-bottom: 50px;
+}
+    
+/* icon design  start*/
+.icon > a {
+  
+    text-decoration: none;
+    color: white;
+}
+ .icon > a > i{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgba(32, 30, 30, 0);
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 1.6;
+    border: 2px solid white;
+    transition: 0.5s;
+    transition: 1s;
+
+ }
+ .icon > a > i:hover{
+    background-color: rgba(4, 50, 97, 0.68);
+    border: 2px solid green;
+    transform: rotate(360deg);
+ }
+ /* icon design end */
+
+
+ /* fist section start hare */
+ .main-box{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 100px;
+ }
+.box-1{
+    width: 300px;
+    text-align: center;
+   transition: 0.5s;
+   padding: 20px 10px;
+
+}
+.box-1 > i{
+    font-size: 50px;
+}
+.box-1 > h2{
+    margin: 10px 0;
+}
+.box-1:hover{
+    box-shadow: 3px 3px 10px gray;
+}
+/* first section end  */
+
+/* second section start  */
+.smart-area-tittle > h2{
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.smart-area-tittle > h2::after {
+    content: " ";
+    top: 52px;
+    left: 627px;
+    width: 95px;
+    height: 4px;
+    background-color: #8a0c0c;
+    position: absolute;
+}
+.smatr-area-text-img{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 1000px;
+    justify-content: space-between;
+    padding: 75px;
+}
+.smart-area-taxt{
+    width: 500px;
+
+}
+.smart-area-taxt > h3{
+    margin: 20px 0;
+}
+.smart-area-taxt > h5{
+    color:#8a0c0c;
+}
+.smart-area-taxt > button{
+    background-color: #8a0c0c;
+    padding: 5px 15px;
+    margin: 10px 0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.smart-area-taxt > button:hover{
+    background-color: #500f0f;
+
+}
+/* second section end */
+/* third section start */
+.third-section{
+    background-color: #fafafa;
+}
+.services-taxt{
+    text-align: center;
+    padding: 0px 0 50px 0;
+}
+.services-taxt > h2{
+    font-size: 40px;
+}
+.all-services{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    
+}
+.main-service-box{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.each-services{
+    background-color: lightblue;
+    padding: 30px 0;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s;
+}
+.each-services:hover{
+    background-color: #a2e4f8;
+}
+.each-services > h4{
+    margin: 10px 0;
+}
+.each-services > i{
+    font-size: 40px;
+    color: #8a0c0ca7;
+}
+
+/* fourth section code start here  */
+
+.course-heading > h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 50px 0;
+}
+.main-all-card{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+   
+}
+.image-box{
+    width: 310px;
+}
+.image-box > img{
+    max-width: 100%;
+}
+.course-pricing-div{
+  
+    margin: auto;
+    align-items: center;
+    text-align: center;
+ }
+.each-card{
+          width: 310px;
+          box-shadow: 5px 5px 10px gray;
+          margin-bottom: 50px;
+}
+
+.each-card > h3{
+    margin: 20px 0;
+    font-size: 25px;
+}
+.all-span{
+    border-top: 1px dashed gray;
+    border-bottom: 1px dashed gray;
+    padding: 10px 50px;
+    margin: 10px 20px;
+}
+.first-span{
+    font-size: 20px;
+
+}
+.each-card > button{
+    padding: 10px 40px;
+    background-color: #8a0c0c;
+    color: white;
+    margin: 10px 0;
+    transition: 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.each-card > button:hover{
+    background-color: #8a0c0c00;
+    color: black;
+}
+.each-card > a {
+    display: inline-block;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+.second-span{
+    color: gray;
+}
+
+/* five section start */
+#SECTION-5{
+    background-color: bisque;
+}
+.testo-title{
+    text-align: center;
+    padding: 50PX 0;
+}
+.testo-title > h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+  
+}
+.testo-title >h4{
+    color: gray;
+    letter-spacing: 5px;
+}
+.testo-each-card{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px 10px;
+}
+.testo-card-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+
+    padding-bottom: 50PX;
+}
+.testo-img{
+    width: 200px;
+    display: inline-block;
+    margin-right: 20px;
+
+}
+.testo-img >img{
+    max-width: 100%;
+    border-radius: 50%;
+    border: 1px solid red;
+    
+}
+.testo-main-div{
+    width: 1000PX;
+    margin: auto;
+}
+.testo-span{
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+.star{
+margin-top: 10px;    
+color: #ffa534;
+
+}
+
+/* sixth section start  */
+#sixth-section{
+    background-image: url(image/parallax.jpg);
+    margin-bottom: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.parallax-main{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+    padding: 80px 0;
+    color: white;
+}
+.parallax-each >i{
+    font-size: 30px;
+}
+.parallax-each >h2{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+/* seven section start */
+.main-blog-div{
+   width: 1000px;
+   margin: auto;
+   padding-bottom: 50px;
+}
+.main-blog-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+}
+.main-bolg-image{
+    position: relative;
+    overflow: hidden;
+}
+.main-bolg-image:hover .blog-icon{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.543);
+}
+.main-bolg-image:hover .blog-image{
+    transform: scale(1.5);
+}
+.blog-image{
+max-width: 100%;
+height: 250px;
+transition: 0.5s;
+}
+.blog-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.blog-icon >i{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.blog-text{
+    text-align: center;
+    margin: 20px 0;
+}
+.blog-text> h2{
+    margin-bottom: 15px;
+}
+.blog-text> h4{
+    color: rgba(55, 54, 54, 0.614);
+}
+
+/* contact section code start */
+
+.first-contact{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    /* margin-bottom: 50px; */
+    background-color: rgba(234, 228, 228, 0.929);
+}
+.form-box{
+    width: 600px;
+}
+.taxt-email-box{
+    display: flex;
+}
+.taxt-email-box input{ 
+    width: 200px;
+    height: 40px;
+    margin: 10px 20px;
+    border: none;
+    padding: 0 10px;
+}
+.taxt-email-box h4{
+    margin: 30px 0 0 20px;
+}
+.taxt-box{
+    margin: 20px 20px 10px 20px;
+}
+.subject-box{
+    width: 85%;
+    height: 40px;
+    margin: 0 20px;
+    border: none;
+    padding: 0 10px;
+}
+.message-box{
+    margin:20px 20px 10px 20px ;
+}
+.massage-taxt-area{
+    width: 85%;
+    height: 100px;
+    border: none;
+    margin: 0 20px;
+    padding: 10px 10px;
+}
+.submit{
+    margin: 15px 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: rgba(29, 29, 132, 0.927);
+    color: white;
+    cursor: pointer;
+}
+.adress-parent{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+      
+}
+.adress-child{
+    text-align: center;
+}
+.adress-child i{
+        background-color:rgba(15, 15, 243, 0.795) ;
+        padding: 10px;
+        border-radius: 50%;
+        color: white;
+        margin-bottom: 10px;
+}
+.adress-child span{
+    font-weight: bold;
+}
+/* fotter part start  */
+
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.footer-child{
+    width: 220px;
+    color: gray;
+}
+.footer-child h3{
+    margin: 30px 0 20px 0;
+    color: white;
+    font-weight: bold;
+}
+.main-footer{
+    background-color: rgba(4, 22, 84, 0.959);
+}
+.footer-taxt{
+    margin: 10px 0 15px 0;
+}
+.footer-child i{
+    color: white;
+}
+.second-p{
+    margin: 10px 0;
+}
+.footer-parent .footer-child:nth-child(2) p{
+    margin: 10px 0;
+}
+.footer-parent .footer-child:nth-child(3) p{
+    margin: 10px 0;
+}
+.footer-parent .footer-child:nth-child(4) p{
+    margin: 10px 0;
+}
+.footer-child a{
+    text-decoration: none;
+    color: brown;
+}
+.list-div{
+    display: flex;
+    justify-content: center;
+
+}
+.list-div li{
+    list-style: none;
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+}
+.copy{
+    text-align: center;
+    color: gray;
+    padding-bottom: 20px;
+}
+.copy span{
+    color: brown;
+   
+}
+hr{
+    margin: 16px 263px;
+    width: 67%;
+    text-align: center;
+}
